@@ -1,4 +1,17 @@
 html{
-    background-image: "landing-page.png";
     display: block;
+}
+
+.center{
+    display: block;
+}
+
+.logo {
+    height: 45px;
+    padding: 10px;
+}
+
+.menu-bar {
+    height: wrap;
+    background-color: "blue";
 }
