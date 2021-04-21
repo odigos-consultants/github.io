@@ -2,16 +2,25 @@ html{
     display: block;
 }
 
-.center{
-    display: block;
+.home-page-image{
+    display: flex;
+    align-items: center;
 }
 
 .logo {
-    height: 45px;
-    padding: 10px;
+    height: 65px;
+    padding: 2px;
 }
 
 .menu-bar {
     height: wrap;
-    background-color: "blue";
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.about-us {
+    text-align: right;
+    padding: 15px;
 }
