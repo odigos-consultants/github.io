@@ -1,26 +1,38 @@
 html{
     display: block;
+    width: 100%;
 }
 
 .home-page-image{
     display: flex;
     align-items: center;
+    flex: 100%;
 }
 
 .logo {
-    height: 65px;
+    width: auto;
+    height: 100%;
+    max-height: 55px;
+    align-self: center;
     padding: 2px;
 }
 
 .menu-bar {
-    height: wrap;
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    height: auto;
+}
+
+.profile-pic {
+    width: auto;
+    height: 100%;
+    min-height: 100px;
+    min-width: 100%;
 }
 
 .about-us {
     text-align: right;
-    padding: 15px;
+    padding: 1%;
 }
