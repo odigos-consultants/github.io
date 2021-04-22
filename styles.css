@@ -3,10 +3,14 @@ html{
     width: 100%;
 }
 
-.home-page-image{
+.landing-page-body{
     display: flex;
     align-items: center;
-    flex: 100%;
+    background-color: radial-gradient(black, #333333);
+    align-self: center;
+    height: 90%;
+    width: auto;
+    padding: 10%;
 }
 
 .logo {
@@ -32,7 +36,11 @@ html{
     min-width: 100%;
 }
 
-.about-us {
+.about-us-button {
     text-align: right;
     padding: 1%;
+}
+
+.about-us {
+    padding: 5%
 }
