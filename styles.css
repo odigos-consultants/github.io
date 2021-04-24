@@ -3,6 +3,10 @@ html{
     width: 100%;
 }
 
+body {
+    padding: 0 px;
+}
+
 .landing-page-body{
     display: flex;
     align-items: center;
@@ -27,6 +31,7 @@ html{
     justify-content: space-between;
     align-items: flex-end;
     height: auto;
+    padding: auto;
 }
 
 .profile-pic {
