@@ -29,7 +29,7 @@ body {
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: middle;
     height: auto;
     padding: auto;
 }
@@ -42,8 +42,7 @@ body {
 }
 
 .about-us-button {
-    text-align: right;
-    padding: 1%;
+    padding: 16.5px 1% 16.5px 1%;
 }
 
 .about-us {
