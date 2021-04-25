@@ -28,10 +28,15 @@ body {
 .menu-bar {
     background-color: lightblue;
     display: flex;
-    justify-content: space-between;
-    align-items: middle;
+    align-items: center;
     height: auto;
     padding: auto;
+}
+
+.transparent-block {
+    opacity: 0;
+    flex-grow: 10;
+    display: block;
 }
 
 .profile-pic {
