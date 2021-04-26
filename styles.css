@@ -19,7 +19,6 @@ body {
 
 .logo {
     width: auto;
-    height: 100%;
     max-height: 55px;
     align-self: center;
     padding: 2px;
@@ -38,6 +37,7 @@ body {
     opacity: 0;
     flex-grow: 10;
     display: block;
+    min-width: 1px;
 }
 
 .profile-pic {
@@ -49,6 +49,10 @@ body {
 
 .about-us-button {
     padding: 16.5px 1% 16.5px 1%;
+    
+}
+.about-us-button:hover {
+    background-color: rgb(92, 204, 241);
 }
 
 .about-us {
