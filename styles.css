@@ -53,8 +53,12 @@ body {
     background-image: linear-gradient(270deg, rgb(125, 213, 245), rgb(192 238 255));
 }
 
-.about-us {
+.subsection-header{
     padding: 5%;
+}
+
+.subsection-header > h3 {
+    background-color: rgb(125 213 245 / 34%);
 }
 
 .consultant-1 {
