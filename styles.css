@@ -58,21 +58,31 @@ body > div {
 }
 
 #service {
-    padding-left: 5%;
+    padding: 1% 10%;
 }
 
 .subsection > h3 {
     margin: 2% 0% 0%;
     padding: 1% 2%;
     background-color: rgb(125 213 245 / 54%);
+    font-size: xx-large;
 }
 
 .subsection > :not(h3) {
-    padding: 1.5% 5% 0.5%;
+    padding: 1.5% 5% 0%;
     background-color: rgb(238 249 253);
     margin: 0em;
+    font-size: x-large;
 }
 
 #consultant-1 {
     padding: 4% 15% 4% 30%;
+}
+
+#contact-us {
+    padding-bottom: 25%;
+}
+
+#contact-us > div {
+    padding-bottom: 2% ;
 }
